@@ -1,0 +1,264 @@
+:root {
+  color-scheme: dark;
+  --bg: #101114;
+  --panel: #191b20;
+  --panel-soft: #20232a;
+  --text: #f4f1ea;
+  --muted: #9ca3af;
+  --line: #2d313a;
+  --focus: #66d9a5;
+  --break: #70a7ff;
+  --warn: #f5b85b;
+  --accent: var(--focus);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.timer-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.timer-card {
+  width: min(100%, 360px);
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 24px 70px rgb(0 0 0 / 32%);
+}
+
+.topline,
+.controls,
+.sound-toggle,
+.cycle-strip {
+  display: flex;
+  align-items: center;
+}
+
+.topline {
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.phase-kind,
+.phase-step,
+.phase-name {
+  margin: 0;
+}
+
+.phase-kind {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.phase-step {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.time-display {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+}
+
+.phase-name {
+  min-height: 24px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.progress-track {
+  height: 10px;
+  margin-top: 28px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--panel-soft);
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 160ms linear, background-color 160ms ease;
+}
+
+.cycle-strip {
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.cycle-strip span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--panel-soft);
+}
+
+.cycle-strip span.is-complete {
+  background: var(--accent);
+  opacity: 0.55;
+}
+
+.cycle-strip span.is-active {
+  background: var(--accent);
+  opacity: 1;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 88px 88px;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.controls #settings {
+  grid-column: 1 / -1;
+}
+
+button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  color: var(--text);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button.primary {
+  border-color: transparent;
+  background: var(--accent);
+  color: #101114;
+  font-weight: 750;
+}
+
+.sound-toggle {
+  width: fit-content;
+  gap: 10px;
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sound-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.settings-panel {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(0 0 0 / 58%);
+}
+
+.settings-panel[hidden] {
+  display: none;
+}
+
+.settings-box {
+  width: min(100%, 360px);
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.settings-box h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.settings-fields {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.settings-fields label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--muted);
+}
+
+.settings-fields input {
+  width: 88px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  color: var(--text);
+}
+
+body[data-phase-type="focus"] {
+  --accent: var(--focus);
+}
+
+body[data-phase-type="break"] {
+  --accent: var(--break);
+}
+
+body[data-cycle-done="true"] {
+  --accent: var(--warn);
+}
+
+@media (max-width: 380px) {
+  .timer-shell {
+    padding: 16px;
+  }
+
+  .timer-card {
+    padding: 20px;
+  }
+
+  .time-display {
+    font-size: 58px;
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}

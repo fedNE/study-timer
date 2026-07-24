@@ -1,0 +1,5 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/build/proc-macro2-139ea507b55ea9ab/build_script_build-139ea507b55ea9ab.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/build.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/build/proc-macro2-139ea507b55ea9ab/build_script_build-139ea507b55ea9ab: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/build.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/build.rs:

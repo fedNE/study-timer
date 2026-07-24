@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Study Cycle Timer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="timer-shell">
+      <section class="timer-card" aria-live="polite">
+        <div class="topline">
+          <p id="phaseKind" class="phase-kind">Focus</p>
+          <p id="phaseStep" class="phase-step">1 / 6</p>
+        </div>
+
+        <h1 id="timeDisplay" class="time-display">20:00</h1>
+        <p id="phaseName" class="phase-name">20 minute focus</p>
+
+        <div class="progress-track" aria-label="Current phase progress">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+
+        <div class="cycle-strip" aria-label="Study cycle">
+          <span data-dot="0"></span>
+          <span data-dot="1"></span>
+          <span data-dot="2"></span>
+          <span data-dot="3"></span>
+          <span data-dot="4"></span>
+          <span data-dot="5"></span>
+        </div>
+
+        <div class="controls">
+          <button id="startPause" class="primary" type="button">Start</button>
+          <button id="skip" type="button">Skip</button>
+          <button id="reset" type="button">Reset</button>
+          <button id="settings" type="button">Settings</button>
+        </div>
+
+        <label class="sound-toggle">
+          <input id="soundToggle" type="checkbox" checked>
+          <span>Sound</span>
+        </label>
+      </section>
+
+      <section id="settingsPanel" class="settings-panel" hidden>
+        <div class="settings-box">
+          <div class="topline">
+            <h2>Times</h2>
+            <button id="closeSettings" type="button">Close</button>
+          </div>
+          <div id="settingsFields" class="settings-fields"></div>
+          <button id="saveSettings" class="primary" type="button">Save</button>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

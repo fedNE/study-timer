@@ -1,0 +1,5 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/smallvec-c9b4a696a979d25a.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.15.2/src/lib.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libsmallvec-c9b4a696a979d25a.rmeta: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.15.2/src/lib.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.15.2/src/lib.rs:

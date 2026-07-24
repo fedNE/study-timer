@@ -1,0 +1,11 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/cargo_metadata-0a57b7a2a7179121.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/dependency.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/diagnostic.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/errors.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/messages.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libcargo_metadata-0a57b7a2a7179121.rlib: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/dependency.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/diagnostic.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/errors.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/messages.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libcargo_metadata-0a57b7a2a7179121.rmeta: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/dependency.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/diagnostic.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/errors.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/messages.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/lib.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/dependency.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/diagnostic.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/errors.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.19.2/src/messages.rs:

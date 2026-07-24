@@ -1,0 +1,11 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/keyboard_types-be50d493e1b923a1.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/code.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/key.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/location.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/modifiers.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/shortcuts.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/webdriver.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libkeyboard_types-be50d493e1b923a1.rmeta: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/code.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/key.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/location.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/modifiers.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/shortcuts.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/webdriver.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/lib.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/code.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/key.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/location.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/modifiers.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/shortcuts.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keyboard-types-0.7.0/src/webdriver.rs:

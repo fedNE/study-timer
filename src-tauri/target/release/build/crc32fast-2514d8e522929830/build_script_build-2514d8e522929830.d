@@ -1,0 +1,5 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/release/build/crc32fast-2514d8e522929830/build_script_build-2514d8e522929830.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.0/build.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/release/build/crc32fast-2514d8e522929830/build_script_build-2514d8e522929830: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.0/build.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.0/build.rs:

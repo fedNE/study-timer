@@ -1,0 +1,8 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/serialize_to_javascript-2ab2b1ad41615c0b.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/private.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libserialize_to_javascript-2ab2b1ad41615c0b.rlib: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/private.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/debug/deps/libserialize_to_javascript-2ab2b1ad41615c0b.rmeta: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/lib.rs /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/private.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/lib.rs:
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serialize-to-javascript-0.1.2/src/private.rs:

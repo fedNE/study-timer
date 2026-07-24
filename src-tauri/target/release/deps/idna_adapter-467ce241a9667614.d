@@ -1,0 +1,7 @@
+/Users/nfn/Documents/таймер 23421/src-tauri/target/release/deps/idna_adapter-467ce241a9667614.d: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna_adapter-1.2.2/src/lib.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/release/deps/libidna_adapter-467ce241a9667614.rlib: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna_adapter-1.2.2/src/lib.rs
+
+/Users/nfn/Documents/таймер 23421/src-tauri/target/release/deps/libidna_adapter-467ce241a9667614.rmeta: /Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna_adapter-1.2.2/src/lib.rs
+
+/Users/nfn/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna_adapter-1.2.2/src/lib.rs:
