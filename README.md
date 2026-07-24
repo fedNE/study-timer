@@ -1,4 +1,5 @@
-# Study Cycle Timer
+# Study Cycle Timer 
+(зайдите в папку study-timer/app и запустите файл html)
 
 Minimal Tauri desktop timer for a 20-3-40-2-10-20 study cycle.
 
